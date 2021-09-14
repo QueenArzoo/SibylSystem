@@ -8,3 +8,6 @@ Sibyl_approved_logs: Union[str, int] = 123456789
 GBAN_MSG_LOGS: Optional[Union[str, int]] = None
 BOT_TOKEN: str = "123456:shsiajskzkxhxj"
 MONGO_DB_URL: str = ""
+SIBYL = get_user_list("elevated_users.json", "SIBYL")
+INSPECTORS = get_user_list("elevated_users.json", "INSPECTORS")
+ENFORCERS = get_user_list("elevated_users.json", "ENFORCERS")
